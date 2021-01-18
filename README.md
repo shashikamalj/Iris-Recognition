@@ -17,6 +17,7 @@ For OpenCV installation you may use:
 
 # To run the program:
 
+####Unordered list (plus sign and nested)
 +Replace "./Downloads" to change the path of:
   +In IrisProcessing.cpp: 
     line 30: "<pwd>/iris/S1001L"
