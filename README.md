@@ -14,7 +14,7 @@ http://www.codebind.com/linux-tutorials/install-opencv-3-2-ubuntu-16-04/
 https://www.learnopencv.com/install-opencv3-on-ubuntu/
 
 To run the program:
-1) Replace "/home/chinmay/Downloads" to change the path of:
+1) Replace "./Downloads" to change the path of:
 a)In IrisProcessing.cpp: 
 line 30: "<pwd>/iris/S1001L"
 line 38: "<pwd>/iris/S1001L"
