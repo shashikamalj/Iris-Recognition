@@ -18,20 +18,20 @@ For OpenCV installation you may use:
 # To run the program:
 
 #### Unordered list (plus sign and nested)
-+Replace "./Downloads" to change the path of:
-  +In IrisProcessing.cpp: 
++ Replace "./Downloads" to change the path of:
+  + In IrisProcessing.cpp: 
     line 30: "<pwd>/iris/S1001L"
     line 38: "<pwd>/iris/S1001L"
     line 46:"<pwd>/iris/S1001L10.jpg"
     line 166: "<pwd>/iris/iris_unwrapped/"
 
-  +In IrisComparison.cpp
+  + In IrisComparison.cpp
     line 12: "<pwd>/iris/iris_unwrapped/iris_wrapped.txt"
     line 28: "<pwd>/iris/iris_unwrapped/S1001L10.jpg"
 
-+In path "<pwd>/iris" run the following commands to execute the program:
-  +g++ -c IrisProcessing.h IrisComparison.h
-  +g++ IrisProcessing.cpp IrisComparison.cpp IrisDetectionMain.cpp `pkg-config --cflags --libs opencv`
-  +./a.out
++ In path "<pwd>/iris" run the following commands to execute the program:
+  + g++ -c IrisProcessing.h IrisComparison.h
+  + g++ IrisProcessing.cpp IrisComparison.cpp IrisDetectionMain.cpp `pkg-config --cflags --libs opencv`
+  + ./a.out
 
 *pwd - present working directory
