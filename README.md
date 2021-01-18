@@ -10,25 +10,27 @@ OpenCV 3.2
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04)
 
 For OpenCV installation you may use:
+
 `<link>` :http://www.codebind.com/linux-tutorials/install-opencv-3-2-ubuntu-16-04/
+
 `<link>` :https://www.learnopencv.com/install-opencv3-on-ubuntu/
 
 # To run the program:
 
-1) Replace "./Downloads" to change the path of:
--In IrisProcessing.cpp: 
-line 30: "<pwd>/iris/S1001L"
-line 38: "<pwd>/iris/S1001L"
-line 46:"<pwd>/iris/S1001L10.jpg"
-line 166: "<pwd>/iris/iris_unwrapped/"
++Replace "./Downloads" to change the path of:
+  +In IrisProcessing.cpp: 
+    line 30: "<pwd>/iris/S1001L"
+    line 38: "<pwd>/iris/S1001L"
+    line 46:"<pwd>/iris/S1001L10.jpg"
+    line 166: "<pwd>/iris/iris_unwrapped/"
 
--In IrisComparison.cpp
-line 12: "<pwd>/iris/iris_unwrapped/iris_wrapped.txt"
-line 28: "<pwd>/iris/iris_unwrapped/S1001L10.jpg"
+  +In IrisComparison.cpp
+    line 12: "<pwd>/iris/iris_unwrapped/iris_wrapped.txt"
+    line 28: "<pwd>/iris/iris_unwrapped/S1001L10.jpg"
 
-2)In path "<pwd>/iris" run the following commands to execute the program:
-i) g++ -c IrisProcessing.h IrisComparison.h
-ii) g++ IrisProcessing.cpp IrisComparison.cpp IrisDetectionMain.cpp `pkg-config --cflags --libs opencv`
-iii) ./a.out
++In path "<pwd>/iris" run the following commands to execute the program:
+  +g++ -c IrisProcessing.h IrisComparison.h
+  +g++ IrisProcessing.cpp IrisComparison.cpp IrisDetectionMain.cpp `pkg-config --cflags --libs opencv`
+  +./a.out
 
 *pwd - present working directory
